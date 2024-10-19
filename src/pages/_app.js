@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <main className="container max-w-[1200px] mx-auto">
+      <main className="container max-w-[960px] mx-auto">
         <Component {...pageProps} />
       </main>
     </>
