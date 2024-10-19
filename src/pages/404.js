@@ -28,15 +28,15 @@ const NotFoundPage = () => {
                     src="/vincent.gif" 
                     alt="Vincent Vega confused" 
                     layout="responsive" 
-                    width={300} 
-                    height={300} 
+                    width={200} 
+                    height={200} 
                     className="rounded-lg"
                 />
             </div>
-            <div className="flex flex-col gap-8 text-center">
-                <h1 className="text-3xl md:text-5xl text-white font-bold">404 - Page not found</h1>
-                <p className="text-xl md:text-2xl text-neutral-400">The page you are looking for does not exist.</p>
-                <Link href="/" className="text-xl text-indigo-500 hover:text-indigo-300 font-medium">Go back to the homepage &rarr;</Link>
+            <div className="flex flex-col gap-4 text-center">
+                <h1 className="text-3xl md:text-4xl text-white font-bold">404 - Page not found</h1>
+                <p className="text-xl md:text-xl text-neutral-400">The page you are looking for does not exist.</p>
+                <Link href="/" className="text-lg text-indigo-400 hover:text-indigo-200 font-medium">Go back to the homepage &rarr;</Link>
             </div>
         </section>
     );
