@@ -6,7 +6,7 @@ export default function About() {
         <section id="about-main" className="flex flex-col pt-20 pb-10 text-white gap-10 border-b border-neutral-800">
             <div className="flex flex-col text-left gap-2 max-w-[800px]">
                 <h1 className="text-5xl font-bold mb-4">About Me</h1>
-                <p className="text-lg text-neutral-400">I worked for a while as a data scientist for wildly different companies, from FAANG to early-stage startups. Last year I left my full-time job to start my own company and I'm now working on <Link href="https://casify.it" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">Casify.it</Link>, a data analytics and prediction toolbox for real estate investors.</p>
+                <p className="text-lg text-neutral-400">I worked for a while as a data scientist for different companies, from FAANG to early-stage startups. Last year I left my full-time job to start my own company and I'm now working on <Link href="https://casify.it" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">Casify.it</Link>, a data analytics and prediction toolbox for real estate investors.</p>
                 <p className="text-lg text-neutral-400">I am mostly interested in coding, DS/ML and startups. My hobbies are music production, reading and calisthenics.</p>
             </div>
             <div className="flex flex-col text-left">
