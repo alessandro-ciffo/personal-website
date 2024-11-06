@@ -9,7 +9,7 @@ const highlightedPprojects = [
 
 export default function Home() {
   return (
-    <div>
+    <div className="px-4 md:px-0">
       <section id="hero" className="flex py-20 text-white">
         <div className="flex flex-col text-left gap-2 max-w-[600px] text-pretty">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Hey, I&apos;m Alessandro</h1>

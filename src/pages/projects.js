@@ -13,9 +13,9 @@ const projects = [
 export default function Projects() {
     return (
         <>
-            <section id="about-main" className="flex flex-col pt-20 pb-10 text-white gap-20">
+            <section id="about-main" className="flex flex-col pt-20 pb-10 text-white gap-20 px-4 md:px-0">
                 <div className="flex flex-col text-left gap-2">
-                    <h1 className="text-5xl font-bold mb-4">Projects</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4">Projects</h1>
                     <p className="text-xl text-neutral-400 max-w-[600px]">
                         Some of the projects I&apos;m currently working on or have worked on in the past. You can find more on my <Link href="https://github.com/alessandro-ciffo" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">GitHub profile</Link>.
                     </p>

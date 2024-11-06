@@ -2,10 +2,10 @@ import Link from 'next/link';
 
 export default function About() {
     return (
-      <>
+      <div className="px-4 md:px-0">
         <section id="about-main" className="flex flex-col pt-20 pb-10 text-white gap-10 border-b border-neutral-800">
             <div className="flex flex-col text-left gap-2 max-w-[800px]">
-                <h1 className="text-5xl font-bold mb-4">About Me</h1>
+                <h1 className="text-4xl md:text-5xl font-bold mb-4">About Me</h1>
                 <p className="text-lg text-neutral-400">I worked for a while as a data scientist for different companies, from FAANG to early-stage startups. Last year I left my full-time job to start my own company and I&apos;m now working on <Link href="https://casify.it" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">Casify.it</Link>, a data analytics and prediction toolbox for real estate investors.</p>
                 <p className="text-lg text-neutral-400">I am mostly interested in coding, DS/ML and startups. My hobbies are music production, reading and calisthenics.</p>
             </div>
@@ -18,7 +18,7 @@ export default function About() {
             </div>
         </section>
         <section id="about-experience" className="flex flex-col pt-10 pb-10 text-white gap-10 border-b border-neutral-800">
-            <h2 className="text-4xl font-semibold">Experience</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold">Experience</h2>
             <div className="max-w-[800px]">
                 <h3 className="text-2xl font-medium mb-4">Co-Founder</h3>
                 <span className="flex flex-row text-base mb-4">
@@ -92,7 +92,7 @@ export default function About() {
             </div>
         </section>
         <section id="about-education" className="flex flex-col pt-10 pb-10 text-white gap-10 border-b border-neutral-800">
-            <h2 className="text-4xl font-semibold">Education</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold">Education</h2>
             <div className="max-w-[800px]">
                 <h3 className="text-2xl font-medium mb-4">MSc - Data Science</h3>
                 <span className="flex flex-row text-base mb-4">
@@ -114,7 +114,7 @@ export default function About() {
             </div>
         </section>
         <section id="about-education" className="flex flex-col pt-20 pb-20 text-white gap-6 border-b border-neutral-800">
-            <h2 className="text-4xl font-semibold">Skills</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold">Skills</h2>
             <div className="max-w-[800px] mt-4">
                 <h3 className="font-medium mb-2 text-xl">Software Development</h3>
                 <span className="text-neutral-400 text-base">Python, SQL, Julia, React, Tailwind, Docker, Git, CI/CD, Linux, AWS</span>
@@ -128,6 +128,6 @@ export default function About() {
                 <span className="text-neutral-400 text-base">Italian (Native), English (Proficient), French (Intermediate), Portuguese (Beginner)</span>
             </div>
         </section>
-      </>
+      </div>
     );
   }

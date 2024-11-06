@@ -6,7 +6,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="shadow-md text-white border-b border-neutral-800">
+    <nav className="shadow-md text-white border-b border-neutral-800 px-2 md:px-0">
       <div className="max-w-[960px] mx-auto py-2 md:py-4 flex justify-between items-center px-4">
         <div>
           {/* Display "Alessandro Ciffo" on medium and larger screens */}
