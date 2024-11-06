@@ -20,7 +20,7 @@ export default function Projects() {
                         Some of the projects I&apos;m currently working on or have worked on in the past. You can find more on my <Link href="https://github.com/alessandro-ciffo" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">GitHub profile</Link>.
                     </p>
                 </div>
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project, index) => (
                         <ProjectCard key={index} title={project.title} description={project.description} url={project.url} />
                     ))}
