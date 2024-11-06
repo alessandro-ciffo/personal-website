@@ -6,7 +6,7 @@ export default function About() {
         <section id="about-main" className="flex flex-col pt-20 pb-10 text-white gap-10 border-b border-neutral-800">
             <div className="flex flex-col text-left gap-2 max-w-[800px]">
                 <h1 className="text-5xl font-bold mb-4">About Me</h1>
-                <p className="text-lg text-neutral-400">I worked for a while as a data scientist for different companies, from FAANG to early-stage startups. Last year I left my full-time job to start my own company and I'm now working on <Link href="https://casify.it" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">Casify.it</Link>, a data analytics and prediction toolbox for real estate investors.</p>
+                <p className="text-lg text-neutral-400">I worked for a while as a data scientist for different companies, from FAANG to early-stage startups. Last year I left my full-time job to start my own company and I&apos;m now working on <Link href="https://casify.it" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">Casify.it</Link>, a data analytics and prediction toolbox for real estate investors.</p>
                 <p className="text-lg text-neutral-400">I am mostly interested in coding, DS/ML and startups. My hobbies are music production, reading and calisthenics.</p>
             </div>
             <div className="flex flex-col text-left">
@@ -101,7 +101,7 @@ export default function About() {
                 </span>
                 <ul className="list-disc list-outside pl-6 text-neutral-400 text-base font-normal mb-4 text-pretty">
                     <li className="mb-2">Coursework: Statistics & Probability, Machine Learning, Database Systems, Econometrics, Natural Language Processing, Simulation & Modelling, Time Series Analysis, Computer Vision, Marketing Analytics</li>
-                    <li className="mb-2">Final Dissertation: "Predicting amino acid covariance in multiple sequence alignments using AlphaFold-generated structures"</li>
+                    <li className="mb-2">Final Dissertation: &quot;Predicting amino acid covariance in multiple sequence alignments using AlphaFold-generated structures&quot;</li>
                     <li className="mb-2">Final Grade: 110/110 cum laude</li>
                 </ul>
             </div>

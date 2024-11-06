@@ -12,9 +12,9 @@ export default function Home() {
     <div>
       <section id="hero" className="flex py-20 text-white">
         <div className="flex flex-col text-left gap-2 max-w-[600px] text-pretty">
-          <h1 className="text-5xl font-bold mb-4">Hey, I'm Alessandro</h1>
+          <h1 className="text-5xl font-bold mb-4">Hey, I&apos;m Alessandro</h1>
           <p className="text-xl text-neutral-400">I am a data scientist and software developer from Italy.</p>
-          <p className="text-xl text-neutral-400">On this website you can find some information <Link href="/about" className="text-indigo-400 hover:underline hover:text-indigo-200">about me</Link> and a few <Link href="/about" className="text-indigo-400 hover:underline hover:text-indigo-200">projects</Link> I've worked on in the last few years.</p>
+          <p className="text-xl text-neutral-400">On this website you can find some information <Link href="/about" className="text-indigo-400 hover:underline hover:text-indigo-200">about me</Link> and a few <Link href="/about" className="text-indigo-400 hover:underline hover:text-indigo-200">projects</Link> I&apos;ve worked on in the last few years.</p>
         </div>
       </section>
       <section id="hero-projects" className="flex flex-col py-10 text-white gap-4">

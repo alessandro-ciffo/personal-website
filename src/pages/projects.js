@@ -17,7 +17,7 @@ export default function Projects() {
                 <div className="flex flex-col text-left gap-2">
                     <h1 className="text-5xl font-bold mb-4">Projects</h1>
                     <p className="text-xl text-neutral-400 max-w-[600px]">
-                        Some of the projects I'm currently working on or have worked on in the past. You can find more on my <Link href="https://github.com/alessandro-ciffo" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">GitHub profile</Link>.
+                        Some of the projects I&apos;m currently working on or have worked on in the past. You can find more on my <Link href="https://github.com/alessandro-ciffo" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-200 hover:underline">GitHub profile</Link>.
                     </p>
                 </div>
                 <div className="grid grid-cols-3 gap-4">
